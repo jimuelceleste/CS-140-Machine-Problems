@@ -1,4 +1,0 @@
-attack 15
-defend 15
-attack 15
-defend 15

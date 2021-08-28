@@ -1,4 +1,0 @@
-attack 10
-defend 10
-attack 10
-siege 10
