@@ -1,0 +1,6 @@
+alabang 1
+batangas 2
+cavite 3
+antipolo 4
+bulacan 5
+cubao 6

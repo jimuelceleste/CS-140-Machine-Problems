@@ -1,0 +1,4 @@
+attack 5
+parley 5
+attack 5
+defend 5
