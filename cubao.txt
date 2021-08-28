@@ -1,0 +1,4 @@
+attack 15
+parley 15
+attack 15
+siege 15
