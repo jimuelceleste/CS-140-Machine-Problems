@@ -1,0 +1,46 @@
+Parts:
+1 Html writing
+2 File fetching
+3 Conquer process
+*2 and 3 may be combined
+
+# while not strategy.empty():
+	# 	task = strategy.get()
+	# 	print(task.name, task.time)
+	# 	while not task.subtasks.empty():
+	# 		subtask = task.subtasks.get()
+	# 		print(subtask.name, subtask.time, end=' ')
+	# 	print(' ')
+
+
+Conquer process
+1. Input: role of the commander
+-- NOTE -- 
+the role is important in the output
+The CPU BURST == the role of the commander
+The IO BURST == roles - role of the commander
+-- END --
+2. Get the list of all the cities and their arrival time
+3. First come first served:
+	a. Open the city level strategy plan
+	b. attack
+	- if action == role: you attack
+	- else == Sub-commanders attack
+	-- NOTE -- 
+	Lacking of the Ready Queue and the parralel
+	actions in the Sub-commanders column
+	ADD: remarks
+	-- END --
+	Soln:
+	For every decriment in the action of the commander:
+		check if a new city is going to be attacked
+		[if day == city.next.arrival]
+		if yes:
+			if action in that city == role:
+				enqueue in the ready queue
+			else:
+				pass it to the Sub-commanders
+				if Sub-c current action != action in that city:
+					act in parallel
+		NOTE: act means action-- 
+

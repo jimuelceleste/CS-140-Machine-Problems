@@ -1,0 +1,4 @@
+			<th>Ready Queue</th>
+			<th>Sub-commanders</th>
+			<th>Remarks</th>
+		</tr>

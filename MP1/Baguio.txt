@@ -1,0 +1,2 @@
+parley 4
+attack 1
